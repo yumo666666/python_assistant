@@ -1,0 +1,24 @@
+type: "openagents.agents.collaborator_agent.CollaboratorAgent"
+agent_id: "python_assistant"
+
+config:
+  model_name: "Qwen/Qwen3-8B"
+  provider: "openai-compatible"
+  api_base: "YOUR_BASE_URL_HERE"
+  api_key: "YOUR_API_KEY_HERE"
+  
+  instruction: |
+    You are a helpful Python programming assistant. 
+    You help users write, debug, and understand Python code.
+    Please provide clear, concise, and correct Python code snippets when asked.
+    
+  react_to_all_messages: true
+
+mods:
+  - name: "openagents.mods.workspace.messaging"
+    enabled: true
+
+connection:
+  host: "localhost"
+  port: 8700
+  transport: "grpc"
