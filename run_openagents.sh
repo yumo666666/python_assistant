@@ -30,10 +30,7 @@ else
     source .venv/bin/activate
 fi
 
-# 3. 设置环境变量
-echo "Setting up environment variables..."
-export OPENAI_BASE_URL="YOUR_BASE_URL_HERE"
-export OPENAI_API_KEY="YOUR_API_KEY_HERE"
+
 
 # 4. 启动服务
 echo -e "${GREEN}Starting OpenAgents Network...${NC}"
