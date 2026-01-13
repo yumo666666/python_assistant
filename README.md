@@ -60,6 +60,7 @@
 1. **克隆代码仓库**:
    ```bash
    git clone https://github.com/yumo666666/python_assistant.git
+   git clone https://github.com/openagents-org/openagents.git
    cd python_assistant
    ```
 
