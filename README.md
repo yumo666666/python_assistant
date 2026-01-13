@@ -60,21 +60,20 @@
 1. **克隆代码仓库**:
    ```bash
    git clone https://github.com/yumo666666/python_assistant.git
-   git clone https://github.com/openagents-org/openagents.git
    cd python_assistant
+   git clone https://github.com/openagents-org/openagents.git
    ```
 
 2. **配置密钥**:
-   - 打开 `run_openagents.bat` (Windows) 或 `run_openagents.sh` (Linux)。
+   - 打开 `./my_agent_network/agents/python_assistant.yaml`。
    - 找到以下行并修改为你自己的配置：
      ```bash
-     # Windows
-     set OPENAI_BASE_URL=https://your-custom-endpoint.com/v1
-     set OPENAI_API_KEY=sk-your-api-key
-     
-     # Linux
-     export OPENAI_BASE_URL="https://your-custom-endpoint.com/v1"
-     export OPENAI_API_KEY="sk-your-api-key"
+
+     model_name: "模型ID"
+      provider: "openai-compatible"
+      api_base: "https://*********/v1"
+      api_key: "sk-k6jvZw*****************4vg"
+
      ```
    > **注意**: 请勿将包含真实 API Key 的文件提交到公开仓库！
 
