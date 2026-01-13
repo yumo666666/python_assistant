@@ -1,5 +1,5 @@
 # Python Assist Network - Multi-Agent Hackathon 2025
-
+[](./image.png)
 ## 1. 项目概述 (Project Overview)
 - **项目名称**: Python Assist Network
 - **Network ID**: `python-assist-network` (默认配置)
@@ -58,8 +58,8 @@
 ### 安装与运行步骤
 1. **克隆代码仓库**:
    ```bash
-   git clone <YOUR_REPO_URL>
-   cd <YOUR_REPO_NAME>
+   git clone https://github.com/yumo666666/python_assistant.git
+   cd python_assistant
    ```
 
 2. **配置密钥**:
