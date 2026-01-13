@@ -1,6 +1,6 @@
 # Python Assist Network - Multi-Agent Hackathon 2025
 ![](./image.jpg)
-![](./vid.mp4)
+
 ## 1. 项目概述 (Project Overview)
 - **项目名称**: Python Assist Network
 - **Network ID**: `python-assist-network` (默认配置)
